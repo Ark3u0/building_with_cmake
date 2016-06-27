@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sgarcia/Code/C++/building_with_cmake/installing_and_testing_an_added_library/MathFunctions/MathFunctions.h
+
+/Users/sgarcia/Code/C++/building_with_cmake/installing_and_testing_an_added_library/MathFunctions/mysqrt.cpp
+MathFunctions.h
+/Users/sgarcia/Code/C++/building_with_cmake/installing_and_testing_an_added_library/MathFunctions/MathFunctions.h
+stdio.h
+-
+

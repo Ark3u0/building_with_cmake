@@ -1,0 +1,10 @@
+// the configured options and settings for BuildingWithCMake
+#define Tutorial_VERSION_MAJOR @Tutorial_VERSION_MAJOR@
+#define Tutorial_VERSION_MINOR @Tutorial_VERSION_MINOR@
+
+#cmakedefine USE_MYMATH
+
+// does the platform provide exp and log functions?
+// (Can comment these out in this example to test with/without log/exp)
+#cmakedefine HAVE_LOG
+#cmakedefine HAVE_EXP
